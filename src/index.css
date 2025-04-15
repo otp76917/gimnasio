@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #888888;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #888888;
+}
+
+.carousel .carousel-indicators {
+  bottom: -50px; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.card .title {
+  color: #ffffff;
+}
+
+.card .card-text {
+  color: #85898d;
+}
+
+.card .btn-primary {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #ffffff;
+}
+
+.card .btn-primary:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+  color: #ffffff;
+}
+
+.custom-navbar {
+  background-color: #a02020;
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff;
+}
+.custom-navbar .navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #f8f9fa;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.custom-navbar .navbar-toggler-icon {
+  filter: brightness(0) invert(1); 
 }

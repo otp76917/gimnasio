@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import GimnasioMenu from './components/GimnasioMenu'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { GymProvider } from './GymProvider'
+import Registro from './components/Registro'
+import Maquinas from './components/Maquinas'
+import Clases from './components/Clases'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <GymProvider>
+      <BrowserRouter>
+        <GimnasioMenu/>
+        <Routes>
+          <Route path="/" element={<Registro/>} />
+          
+          <Route path="/maquinas" element={<Maquinas/>} />
+          <Route path="/clases" element={<Clases/>} />
+        </Routes>
+      </BrowserRouter>
+    </GymProvider>
+  )
 }
 
-export default App;
+export default App
