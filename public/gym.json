@@ -1,69 +1,69 @@
 {
-    "maquinas": [
-      {
-        "id": 1,
-        "nombre": "Treadmill Pro",
-        "descripcion": "High-end treadmill with multiple incline and speed settings.",
-        "body_parts": ["Legs", "Cardio"],
-        "imagen": "treadmill.jpg"
-      },
-      {
-        "id": 2,
-        "nombre": "Elliptical Trainer",
-        "descripcion": "Low-impact cardio machine simulating stair climbing, walking, or running.",
-        "body_parts": ["Legs", "Arms", "Cardio"],
-        "imagen": "elliptical.jpg"
-      },
-      {
-        "id": 3,
-        "nombre": "Leg Press Machine",
-        "descripcion": "Builds strength in quadriceps, glutes, and hamstrings.",
-        "body_parts": ["Legs", "Glutes"],
-        "imagen": "leg_press.jpg"
-      },
-      {
-        "id": 4,
-        "nombre": "Lat Pulldown Machine",
-        "descripcion": "Targets the latissimus dorsi muscles for a stronger back.",
-        "body_parts": ["Back", "Biceps"],
-        "imagen": "lat_pulldown.jpg"
-      },
-      {
-        "id": 5,
-        "nombre": "Dumbbell Rack",
-        "descripcion": "Set of dumbbells ranging from 5kg to 30kg for various exercises.",
-        "body_parts": ["Full Body", "Arms", "Chest", "Back", "Legs"],
-        "imagen": "dumbbell_rack.jpg"
-      }
-    ],
-    "clases": [
-      {
-        "id": 1,
-        "nombre": "Yoga Flow",
-        "tutor": "Anna Smith",
-        "hora": "10:00 AM - 11:00 AM",
-        "imagen": "yoga_flow.jpg"
-      },
-      {
-        "id": 2,
-        "nombre": "HIIT Circuit",
-        "tutor": "Mike Johnson",
-        "hora": "6:00 PM - 6:45 PM",
-        "imagen": "hiit_circuit.jpg"
-      },
-      {
-        "id": 3,
-        "nombre": "Spinning Blast",
-        "tutor": "Carlos Ray",
-        "hora": "7:00 AM - 7:50 AM",
-        "imagen": "spinning.jpg"
-      },
-      {
-        "id": 4,
-        "nombre": "Pilates Core",
-        "tutor": "Sophia Loren",
-        "hora": "11:30 AM - 12:20 PM",
-        "imagen": "pilates.jpg"
-      }
-    ]
-  }
+  "maquinas": [
+    {
+      "id": 1,
+      "nombre": "Cinta de Correr Pro",
+      "descripcion": "Cinta de correr de alta gama con múltiples ajustes de inclinación y velocidad.",
+      "pCuerpo": ["Piernas", "Cardio"],
+      "imagen": "treadmill.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Entrenador Elíptico",
+      "descripcion": "Máquina de cardio de bajo impacto que simula subir escaleras, caminar o correr.",
+      "pCuerpo": ["Piernas", "Brazos", "Cardio"],
+      "imagen": "elliptical.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Máquina de Prensa de Piernas",
+      "descripcion": "Desarrolla fuerza en cuádriceps, glúteos e isquiotibiales.",
+      "pCuerpo": ["Piernas", "Glúteos"],
+      "imagen": "leg_press.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Máquina de Jalón al Pecho",
+      "descripcion": "Trabaja los músculos dorsal ancho para una espalda más fuerte.",
+      "pCuerpo": ["Espalda", "Bíceps"],
+      "imagen": "lat_pulldown.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Soporte de Mancuernas",
+      "descripcion": "Juego de mancuernas de 5kg a 30kg para diversos ejercicios.",
+      "pCuerpo": ["Cuerpo Completo", "Brazos", "Pecho", "Espalda", "Piernas"],
+      "imagen": "dumbbell_rack.jpg"
+    }
+  ],
+  "clases": [
+    {
+      "id": 1,
+      "nombre": "Yoga",
+      "tutor": "Anna Smith",
+      "hora": "10:00 AM - 11:00 AM",
+      "imagen": "yoga.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Circuito HIIT",
+      "tutor": "Mike Johnson",
+      "hora": "6:00 PM - 6:45 PM",
+      "imagen": "hiit_circuit.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Spinning",
+      "tutor": "Carlos Ray",
+      "hora": "7:00 AM - 7:50 AM",
+      "imagen": "spinning.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Pilates",
+      "tutor": "Sophia Loren",
+      "hora": "11:30 AM - 12:20 PM",
+      "imagen": "pilates.jpg"
+    }
+  ]
+}

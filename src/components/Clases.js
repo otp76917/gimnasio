@@ -1,4 +1,4 @@
-import { Card, Button, Container, Carousel } from 'react-bootstrap'
+import { Card, Button, Container, Carousel, Row, Col } from 'react-bootstrap'
 import { GymContext } from '../GymProvider'
 import { useContext } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -23,21 +23,25 @@ export default function Clases() {
     const { clases } = useContext(GymContext)
 
     const handleApply = (clase) => {
-        console.log(`Apuntando a la clase: ${clase.id} - ${clase.nombre}`)
+        alert(`Apuntándose a la clase: ${clase.id} - ${clase.nombre}`)
     }
 
     return (
-        <Container>
-            <h2>Clases</h2>
-            <Carousel>
-                {clases.map((clase) => (
-                    <Carousel.Item key={clase.id}>
-                        <div className="d-flex justify-content-center">
-                            <ClaseCard clase={clase} onApply={handleApply} />
-                        </div>
-                    </Carousel.Item>
-                ))}
-            </Carousel>
+        <Container className="mt-5">
+            <Row className="justify-content-md-center">
+                <Col md={8}>
+                    <h2 className="text-center mb-4">Clases</h2>
+                    <Carousel>
+                        {clases.map((clase) => (
+                            <Carousel.Item key={clase.id}>
+                                <div className="d-flex justify-content-center">
+                                    <ClaseCard clase={clase} onApply={handleApply} />
+                                </div>
+                            </Carousel.Item>
+                        ))}
+                    </Carousel>
+                </Col>
+            </Row>
         </Container>
     )
 }

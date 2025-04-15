@@ -47,6 +47,20 @@ code {
   color: #ffffff;
 }
 
+.card .btn-primary:active {
+  background-color: #72121c !important;
+  border-color: #b21f2d !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.card .btn-primary.focus {
+  color: #ffffff;
+  background-color: #c82333;
+  border-color: #bd2130;
+   box-shadow: none; 
+}
+
 .custom-navbar {
   background-color: #a02020;
 }
