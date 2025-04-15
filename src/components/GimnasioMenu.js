@@ -13,10 +13,6 @@ const GimnasioMenu = () => {
                         <Nav.Link href="/maquinas">Máquinas</Nav.Link>
                         <Nav.Link href="/clases">Clases</Nav.Link>
                     </Nav>
-                    <Nav>
-                        <Nav.Link href="/login">Iniciar Sesión</Nav.Link>
-                        <Nav.Link href="/registro">Registrarse</Nav.Link>
-                    </Nav>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
